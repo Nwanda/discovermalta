@@ -1,0 +1,114 @@
+body {
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #282828;
+}
+
+/* middle content */
+.container, .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background: #555555; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.title{
+    color:blue;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Cambo, serif;
+}
+
+.post {
+    float: left;
+    width: 100%;
+    clear: both;
+    position: relative;
+    padding-bottom: 12px;
+
+    background-image: none;
+    background-color: #ececec;
+    margin-bottom: 5px;
+}
+
+ .location, .tel{
+ 
+    margin-left: 12px;
+}  
+
+.post span {
+    font-size: .9em;
+    margin-bottom: 7.5px;
+}
+ .text{
+    margin-left: 6px;
+}
+.post img {
+    display: block;
+    width: 100%;
+    margin: 5px 0 15px;
+}
+
+.tel-email a{
+    margin-left: 5px;
+}
+
+
+
+@media (min-width: 480px){
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: left;
+    }}
+
+/* end of middle content */
+      
+      /* right sidebar */
+      
+      
+      .title-bar {
+        background: #0e9be3;
+        color: #ffffff;
+        /* padding: 15px 10px; */
+        font-size: 12px;
+        font-weight: 100;
+        border-bottom: 3px solid #f0ad4e;
+        text-transform: uppercase;
+        margin-top: 15px
+      }
+
+      
+      .btn-secondary {
+          border-color: #f0ad4e;
+          border: none;
+      }
+     
+      .top10 li .image {
+          float: left;
+          margin-right: 20px;
+      }
+      
+      .top10 li .image img {
+          max-width: 40px;
+          max-height: 40px;
+      }
+      
+      .font-weight-bold {
+        font-weight: 600 !important;
+        font-size: 13px;
+      }
+      
+      .details a {
+          color: #555555;
+      }
+
+      .card{
+          color: green;
+
+      }
+
+      /* end of right sidebar */

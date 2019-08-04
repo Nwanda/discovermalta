@@ -1,0 +1,132 @@
+body {
+	font-family: "Lato", sans-serif;
+	}
+
+.sidebar {
+  /* height: 100%; */
+/* z-index: 1; */
+  /* top: 0;
+  left: 0; */
+
+  /* overflow-x: hidden; */
+ 
+  list-style: none;
+  border: 1px solid #ddd;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  display: block;
+  font-size: 12px !important;
+  color: #555555;
+}
+
+
+.sidebar a:hover {
+  color: #007bff; 
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px;
+}
+/*
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}*/
+
+
+
+
+
+.title-bar {
+  background: #0e9be3;
+  color: #ffffff;
+  padding: 15px 10px;
+  font-size: 12px;
+  font-weight: 100;
+  border-bottom: 3px solid #f0ad4e;
+  text-transform: uppercase;
+  margin-top: 15px
+}
+
+.sidebar li {
+  border-bottom: 1px solid #ddd;
+}
+.sidebar li i{
+  float: right;
+}
+
+.fa-fw{
+  color: #0e6b99 !important;
+}
+
+
+/* advertise with  us */
+
+
+
+.sellspace_banner {
+	background: #f8f9fa;
+}
+
+.banner_170_900 {
+	line-height: 300px;
+}
+
+.sellspace_banner {
+	display: inline-block;
+	background: #e7e7e7;
+	border: 1px solid #BEBEBE;
+	position: relative;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.sellspace_banner .pricing {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	line-height: 30px;
+	background: #c8c8c8;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #fff;
+	text-shadow: none;
+	font-size: 12px;
+}
+
+.btn-secondary {
+	/* color: #fff; */
+	background-color: #f0ad4e !important;
+	border-color: #f0ad4e;
+}
+
+
+/* most searched */
+
+.top10 li .image {
+	float: left;
+	margin-right: 20px;
+}
+
+.top10 li .image img {
+	max-width: 40px;
+	max-height: 40px;
+}
+
+.font-weight-bold {
+  font-weight: 600 !important;
+  font-size: 13px;
+}
+
+.details a {
+	color: #555555;
+}
+
+.btn, .card {
+	border-radius: 0px;
+}
+
+/* end of most searched. */
+

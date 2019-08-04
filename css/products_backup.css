@@ -1,0 +1,271 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+.listing-list-loop.stm-listing-directory-list-loop {
+	padding-bottom: 5px;
+	margin-bottom: 22px;
+}
+.stm-special-car-top-on, .stm-isotope-sorting-featured-top .listing-list-loop {
+	border-bottom: 3px solid #269aff;
+}
+
+.listing-list-loop .image {
+	position: relative;
+	float: left;
+	max-width: 257px;
+	margin: 0 28px 0 0;
+	padding-top: 8px;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+body .wpb_button, body .wpb_column > .vc_column-inner > .wpb_wrapper > :last-child {
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.4285;
+	color: #333;
+    background-color: #fff;
+    font-family: "Open Sans";
+
+
+
+}
+
+
+body, .normal_font {
+	font-size: 13px;
+}
+
+
+
+.listing-list-loop .content {
+	overflow: hidden;
+}
+.listing-list-loop .content .meta-top {
+	margin-bottom: 16px;
+}
+
+.listing-list-loop .content .meta-top::after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+
+
+
+
+.listing-list-loop.stm-listing-directory-list-loop .meta-middle-row {
+	vertical-align: top;
+	margin: 0 -10px 12px;
+	font-size: 0px;
+	line-height: 0;
+}
+
+
+
+.listing-list-loop.stm-listing-directory-list-loop .meta-middle-row .meta-middle-unit {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	margin: 0;
+	padding: 0 10px;
+	zoom: 1;
+	text-align: left;
+	border: 0;
+	float: none;
+	line-height: 22px;
+}
+
+.listing-list-loop.stm-listing-directory-list-loop .meta-middle-row .meta-middle-unit.meta-middle-divider {
+	position: relative;
+	height: 35px;
+	width: 0px;
+    padding: 0;
+    position: absolute;
+	content: "";
+	display: block;
+	top: 0px;
+	left: -10px;
+	width: 1px;
+	height: 100%;
+	background-color: #ddd;
+}
+
+
+.listing-list-loop .content .meta-middle .meta-middle-unit .meta-middle-unit-top {
+	position: relative;
+}
+.listing-list-loop .content .meta-middle .meta-middle-unit.font-exists .meta-middle-unit-top {
+	padding-left: 25px;
+}
+.listing-list-loop.stm-listing-directory-list-loop .meta-middle .value {
+	font-size: 13px;
+	font-weight: 700 !important;
+	color: #222;
+}
+.listing-list-loop .content .meta-middle .meta-middle-unit .value {
+	margin-top: -5px;
+	margin-bottom: 0px;
+	line-height: normal;
+}
+
+.listing-list-loop .content .meta-middle .meta-middle-unit.font-exists .value {
+	padding-left: 25px;
+	font-weight: 700;
+}
+
+
+
+.listing-list-loop .content .meta-middle .meta-middle-unit .icon {
+	position: absolute;
+	margin-top: 1px;
+	top: 50%;
+	left: 1px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	color: #888;
+	font-size: 15px;
+}
+.listing-list-loop .content .meta-middle .meta-middle-unit .name {
+	text-transform: uppercase;
+	color: #888;
+	font-size: 10px;
+}
+
+.stm-service-icon-pin_big::before {
+	content: "\e922";
+}
+
+.stm-icon-drive_2::before {
+	content: "\e91d";
+}
+
+
+.stm-icon-transmission_fill::before {
+	content: "\e91c";
+}
+
+
+.stm-icon-engine_fill::before {
+	content: "\e91e";
+}
+
+.stm-icon-fuel::before {
+	content: "\e80e";
+}
+
+.stm-icon-road::before {
+	content: "\e80f";
+}
+.listing-list-loop .content .meta-top .price {
+	min-width: 130px;
+	position: relative;
+	margin-left: 40px;
+	float: right;
+	text-align: right;
+	background-color: #269aff;
+	color: #fff;
+}
+.listing-list-loop .content .meta-top .price::before {
+	position: absolute;
+	content: "";
+	display: block;
+	top: 0px;
+	left: -11px;
+	height: 100%;
+	width: 32px;
+	background-color: #269aff;
+	-webkit-transform: skew(-23deg, 0deg);
+	transform: skew(-23deg, 0deg);
+	z-index: -1;
+}
+
+
+
+
+
+.listing-list-loop .content .title {
+	margin-top: 3px;
+	padding-top: 2px;
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: 700;
+	overflow: hidden;
+}
+
+
+
+.rmv_txt_drctn {
+	color: inherit;
+	text-decoration: none !important;
+}
+
+
+
+
+
+
+
+.listing-list-loop .content .meta-top .price .normal-price {
+	position: relative;
+	left: -4px;
+	padding: 13px 8px 12px 4px;
+}
+
+
+
+
+
+
+.listing-list-loop .content .meta-top .price .heading-font {
+	font-size: 22px;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+
+
+
+
+
+.listing-list-loop.stm-listing-directory-list-loop .stm-car-medias {
+	position: absolute;
+	top: 15px;
+	left: 7px;
+	z-index: 20;
+}
+
+
+
+
+img {
+	max-width: 100%;
+	height: auto;
+  vertical-align: middle;
+}
+
+
+
+
+
